@@ -35,7 +35,7 @@ npm install --save-dev nodemon
 ```
 
 Usage  
-Edit :page_facing_up: package.json
+Edit ./package.json
 ```json
 "scripts": {
     "dev": "nodemon"
