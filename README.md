@@ -6,12 +6,12 @@ A Notes App using Node.js
 ### Chalk
 >Terminal string styling done right
 
-Install
+#### Install
 ```bash
 npm install chalk
 ```
 
-Usage
+#### Usage
 ```javascript
 const chalk = require('chalk')
 console.log(chalk.green('Message'))
@@ -21,6 +21,7 @@ console.log(chalk.green('Message'))
 ### File System
 >The fs module provides an API for interacting with the file system in a manner closely modeled around standard POSIX functions.
 
+#### Usage
 ```javascript
 const fs = require('fs')
 ```
@@ -29,12 +30,12 @@ const fs = require('fs')
 ### Nodemon
 >nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected
 
-Install
+#### Install
 ```bash
 npm install --save-dev nodemon
 ```
 
-Usage  
+#### Usage  
 Edit ./package.json
 ```json
 "scripts": {
@@ -52,12 +53,12 @@ npm run dev
 ### Validator
 >A library of string validators and sanitizers.
 
-Install
+#### Install
 ```bash
 npm install validator
 ```
 
-Usage
+#### Usage
 ```javascript
 const validator = require('validator')
 ```
