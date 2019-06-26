@@ -4,4 +4,4 @@ const chalk = require('chalk')
 const msg = getNotes()
 console.log(msg)
 
-console.log(chalk.green.bold.inverse('Success!'))
+console.log(chalk.red.bold.inverse('Error!'))
