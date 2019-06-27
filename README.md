@@ -61,6 +61,7 @@ npm install validator
 #### Usage
 ```javascript
 const validator = require('validator')
+validator.isEmail('name@example.com') //=> true
 ```
 :page_facing_up: [Read the docs](https://www.npmjs.com/package/validator)
 
