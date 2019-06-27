@@ -72,4 +72,13 @@ validator.isEmail('name@example.com') //=> true
 ### Yargs
 >Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
 
+#### Install
+```bash
+npm install yargs
+```
+
+#### Usage
+```javascript
+const yargs = require('yargs')
+```
 :page_facing_up: [Read the docs](https://www.npmjs.com/package/yargs)
