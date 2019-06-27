@@ -49,6 +49,10 @@ npm run dev
 
 :page_facing_up: [Read the docs](https://www.npmjs.com/package/nodemon)
 
+### Process.argv
+>The process.argv property returns an array containing the command line arguments passed when the Node.js process was launched.
+
+:page_facing_up: [Read the docs](https://nodejs.org/dist/latest-v12.x/docs/api/process.html#process_process_argv)
 
 ### Validator
 >A library of string validators and sanitizers.
@@ -65,3 +69,7 @@ validator.isEmail('name@example.com') //=> true
 ```
 :page_facing_up: [Read the docs](https://www.npmjs.com/package/validator)
 
+### Yargs
+>Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
+
+:page_facing_up: [Read the docs](https://www.npmjs.com/package/yargs)
