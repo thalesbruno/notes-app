@@ -1,10 +1,1 @@
-[
-  {
-    "title": "Learn SCRUM",
-    "body": "Read my new book about SCRUM until next week"
-  },
-  {
-    "title": "Sleep",
-    "body": "Go to sleep before 0pm"
-  }
-]
+[{"title":"saturday","body":"study node.js"},{"title":"sunday","body":"relax"},{"title":"monday","body":"buy pizza"}]
