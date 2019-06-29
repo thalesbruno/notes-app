@@ -1,5 +1,34 @@
 # notes-app
-A Notes App using Node.js
+A command-line Notes App using Node.js
+
+## Install
+
+In the root directory, to install all dependencies, type:
+```bash
+npm install
+```
+
+## Usage
+
+Create note 
+```bash
+node app.js add --title "Note title" --body "Note content"
+```
+
+Remove note
+```bash
+node app.js remove --title "Note title"
+```
+
+Read note
+```bash
+node app.js read --title "Note title"
+```
+
+List all notes
+```bash
+node app.js list
+```
 
 ## Modules covered
 
