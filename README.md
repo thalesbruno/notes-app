@@ -3,6 +3,24 @@ A Notes App using Node.js
 
 ## Modules covered
 
+### Debugger
+>The debugger statement invokes any available debugging functionality, such as setting a breakpoint.
+
+#### Usage
+Add the follow statement in somewhere in your code
+```javascript
+debugger
+```
+
+So, you can call node with inspect options like this:
+```bash
+node inspect app.js
+```
+
+And finally, open in google chrome: chrome://inspect and click on the remote target you want.  
+
+:page_facing_up: [Read the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
+
 ### Chalk
 >Terminal string styling done right
 
